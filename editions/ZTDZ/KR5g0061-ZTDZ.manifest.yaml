@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0061/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0061/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靜餘玄問
+  date: '2015-08-29 02:53:32.374788'
+  source:
+    repository: kanripo
+    path: KR5g0061
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0061_000-ZTDZ.yaml, hash: 'sha256:70af640f0d303a5dac740f687a2d6df37fb3971da9d9560776a0f636106a9f01'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0061_000-ZTDZ.markers.yaml, hash: 'sha256:a55f4d3eec0e7561db4aad8b8d8e7a5cb2d1b0c057e651fb7e2b6cd570aff5d7'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0061_SJB_000-320411a
+    span:
+    - body
+    - 0
+    - 1644
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:bf8698f89376f57f449b6054f79d06cae2dcd1a1d972953391d15ca4391fdb5c
